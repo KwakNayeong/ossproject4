@@ -9,6 +9,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <section className="App-section">
+        <h2>Welcome to My React App</h2>
+        <p>This is a new section added to demonstrate CSS styling in React.</p>
+        </section>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        {}
+        <button className="App-button">Click Me!</button>
       </header>
+      
     </div>
   );
 }
